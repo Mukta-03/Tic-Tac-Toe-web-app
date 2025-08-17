@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <div class="msg-container hide">
+        <p id="msg">winner</p>
+        <button id="new-btn">Play Again</button>
+    </div>
+
+    <div class="draw-container hide">
+        <button id ="draw-close-btn">&times;</button>
+        <p id="draw-msg">It's a Draw!</p>
+        <button id ="draw-btn">Tap to play again</button>
+    </div>
+
+    <main>
+        <h1 class="shadow-text">Tic Tac Toe</h1>
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <div class="game-controls">
+            <button id="reset-btn">Reset Game</button>
+            <button id="quit-btn">Quit Game</button>
+        </div>
+
+    </main>
+    
+    <div id= "celebration-gif" class="hide"></div>
+    <div id= "snow-gif"></div>
+    <div id= "fix-gif"></div>
+    <div id= "alert-gif" class="hide"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
