@@ -67,8 +67,8 @@ transform:translateY(0.4rem);
 }
 
 #quit-btn{
-  width: 40vmin;
-  height: 11vmin;
+  width: 43vmin;
+  /* height: 11vmin; */
   padding: 1rem;
   margin-left: 2vmin;
   font-size: 2.5rem;
@@ -93,8 +93,8 @@ transform:translateY(0.4rem);
 
 #reset-btn {
   display: none;
-  width: 42vmin;
-  height: 11vmin;
+  width: 43vmin;
+  /* height: 11vmin; */
   padding: 1rem;
   font-size: 2.5rem;
   background-color: #1d3e1f;
@@ -300,3 +300,4 @@ transform:translateY(0.4rem);
   transition: opacity 0.5s ease;
 
 }
+
